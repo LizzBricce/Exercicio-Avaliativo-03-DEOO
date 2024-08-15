@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Inventory inventory = Inventory.getInstance();
 
-        // Adicionando produtos ao estoque
         inventory.addProduct(new Product(1, "Produto A", 10, 50.0));
         inventory.addProduct(new Product(2, "Produto B", 5, 30.0));
         inventory.addProduct(new Product(3, "Produto C", 20, 70.0));
